@@ -5,7 +5,7 @@ from flask import Flask
 
 app = Flask(__name__)
 
-# This must be imported after the Flask app iscreated
+# This must be imported after the Flask app is created
 # pylint: disable=wrong-import-position,cyclic-import
 from service import routes
 # pylint: disable=wrong-import-position
